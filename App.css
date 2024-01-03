@@ -11,6 +11,14 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+.container-fluid {
+  padding-top: 150px;
+}
+
+.subheading {
+  padding-bottom: 50px;
+}
+
 .fa-map-marker-alt,
 .fa-dot-circle {
   color: #5bc0de;
@@ -36,7 +44,7 @@ body {
 /*map*/
 #googleMap {
   width: 90%;
-  height: 800px;
+  height: 700px;
   margin: 10px auto;
 }
 
