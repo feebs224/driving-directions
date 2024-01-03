@@ -27,13 +27,13 @@ function calcRoute() {
       output.innerHTML =
         "<div class='alert-info'>From: " +
         document.getElementById("from").value +
-        ".<br />To: " +
+        "<br />To: " +
         document.getElementById("to").value +
-        ".<br /> Driving distance <i class='fas fa-road'></i> : " +
+        "<br /> Driving distance <i class='fas fa-road'></i> : " +
         result.routes[0].legs[0].distance.text +
-        ".<br />Duration <i class='fas fa-hourglass-start'></i> : " +
+        "<br />Duration <i class='fas fa-hourglass-start'></i> : " +
         result.routes[0].legs[0].duration.text +
-        ".</div>";
+        "</div>";
 
       directionsDisplay.setDirections(result);
     } else {
